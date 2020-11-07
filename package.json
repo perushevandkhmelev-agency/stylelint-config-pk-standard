@@ -1,0 +1,32 @@
+{
+  "name": "stylelint-config-pk-standard",
+  "version": "1.0.0",
+  "description": "",
+  "license": "MIT",
+  "author": {
+    "name": "Maxim Postnikov",
+    "url": "https://github.com/maximpostnikov",
+    "email": "itsmaximpostnikov@gmail.com"
+  },
+  "bugs": {
+    "url": "https://github.com/perushevandkhmelev-agency/stylelint-config-pk-standard/issues"
+  },
+  "homepage": "https://github.com/perushevandkhmelev-agency/stylelint-config-pk-standard",
+  "readme": "https://github.com/perushevandkhmelev-agency/stylelint-config-pk-standard#readme",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:perushevandkhmelev-agency/stylelint-config-pk-standard.git"
+  },
+  "main": "index.js",
+  "keywords": [
+    "stylelint",
+    "stylelint-config",
+    "stylelint-order",
+    "stylelint-order-config",
+    "standard",
+    "yandex"
+  ],
+  "peerDependencies": {
+    "stylelint-order": "^3.0.0 || ^4.0.0"
+  }
+}
