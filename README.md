@@ -27,7 +27,7 @@ yarn add stylelint stylelint-order stylelint-config-pk-standard --dev
 ## Rules
 
 | rule                                      	| option                                                                                                  	|
-|-------------------------------------------	|---------------------------------------------------------------------------------------------------------	|
+|:-------------------------------------------	|:---------------------------------------------------------------------------------------------------------	|
 | declaration-block-no-duplicate-properties 	| true                                                                                                    	|
 | block-no-empty                            	| true                                                                                                    	|
 | font-weight-notation                      	| named-where-possible                                                                                    	|
