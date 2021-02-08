@@ -48,6 +48,7 @@
     "no-eol-whitespace": true,
     "no-empty-first-line": true,
     "no-descending-specificity": null,
+    "property-no-vendor-prefix": null,
     "order/properties-order": [
       {
         "properties": ["position", "z-index", "top", "right", "bottom", "left"]
