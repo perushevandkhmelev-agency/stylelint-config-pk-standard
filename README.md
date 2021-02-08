@@ -64,7 +64,7 @@ yarn add stylelint stylelint-order stylelint-config-pk-standard --dev
 | block-opening-brace-space-before          	| always                                                                                                  	|
 | selector-list-comma-newline-after         	| always                                                                                                  	|
 | selector-list-comma-newline-before        	| never-multi-line                                                                                        	|
-| rule-empty-line-before                    	| always                                                                                                  	|
+| rule-empty-line-before                    	| ["always", { "except": "first-nested" }]                                                                	|
 | at-rule-empty-line-before                 	| always                                                                                                  	|
 | at-rule-name-case                         	| lower                                                                                                   	|
 | at-rule-name-space-after                  	| always                                                                                                  	|
