@@ -33,7 +33,7 @@ yarn add stylelint stylelint-order stylelint-config-pk-standard --dev
 | font-weight-notation                      	| named-where-possible                                                                                    	|
 | selector-pseudo-class-no-unknown          	| true                                                                                                    	|
 | selector-pseudo-element-no-unknown        	| true                                                                                                    	|
-| selector-type-no-unknown                  	| [true, {"ignore": ["custom-elements", "default-namespace"]}]                                            	|
+| selector-type-no-unknown                  	| [true, { "ignore": ["custom-elements", "default-namespace"] }]                                          	|
 | no-extra-semicolons                       	| true                                                                                                    	|
 | shorthand-property-no-redundant-values    	| true                                                                                                    	|
 | declaration-no-important                  	| true                                                                                                    	|
@@ -65,7 +65,7 @@ yarn add stylelint stylelint-order stylelint-config-pk-standard --dev
 | selector-list-comma-newline-after         	| always                                                                                                  	|
 | selector-list-comma-newline-before        	| never-multi-line                                                                                        	|
 | rule-empty-line-before                    	| ["always", { "except": "first-nested" }]                                                                	|
-| at-rule-empty-line-before                 	| always                                                                                                  	|
+| at-rule-empty-line-before                 	| ["always", { "except": "first-nested" }]                                                                	|
 | at-rule-name-case                         	| lower                                                                                                   	|
 | at-rule-name-space-after                  	| always                                                                                                  	|
 | at-rule-semicolon-newline-after           	| always                                                                                                  	|
@@ -75,5 +75,6 @@ yarn add stylelint stylelint-order stylelint-config-pk-standard --dev
 | max-empty-lines                           	| 1                                                                                                       	|
 | no-eol-whitespace                         	| true                                                                                                    	|
 | no-empty-first-line                       	| true                                                                                                    	|
-| order                                     	| ["custom-properties","dollar-variables","at-variables","declarations","rules","at-rules","less-mixins"] 	|
+| no-descending-specificity                  	| null                                                                                                    	|
+| property-no-vendor-prefix                  	| null                                                                                                    	|
 | properties-order                          	| yandex                                                                                                  	|
