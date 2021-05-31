@@ -1,7 +1,4 @@
 {
-  "processors": ["stylelint-processor-styled-components"],
-  "plugins": ["stylelint-order"],
-  "extends": ["stylelint-config-recommended", "stylelint-config-styled-components"],
   "rules": {
     "declaration-block-no-duplicate-properties": true,
     "block-no-empty": true,

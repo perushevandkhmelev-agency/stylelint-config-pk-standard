@@ -3,7 +3,7 @@
 ## Install
 
 ```sh
-yarn add stylelint-config-pk-standard --dev
+yarn add stylelint-config-recommended stylelint-order stylelint-config-pk-standard --dev
 ```
 
 ## Usage

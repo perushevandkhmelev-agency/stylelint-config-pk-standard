@@ -1,7 +1,7 @@
 {
   "name": "stylelint-config-pk-standard",
   "version": "1.0.3",
-  "description": "",
+  "description": "P&K styles config standard for stylelint",
   "license": "MIT",
   "author": {
     "name": "Maxim Postnikov",
@@ -26,11 +26,8 @@
     "standard",
     "yandex"
   ],
-  "dependencies": {
-    "stylelint": "^13.7.2",
-    "stylelint-config-recommended": "^3.0.0",
-    "stylelint-config-styled-components": "^0.1.1",
-    "stylelint-order": "^4.1.0",
-    "stylelint-processor-styled-components": "^1.10.0"
+  "peerDependencies": {
+    "stylelint-config-recommended": "^5.0.0",
+    "stylelint-order": "^4.1.0"
   }
 }
