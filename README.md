@@ -11,7 +11,11 @@ yarn add stylelint-config-recommended stylelint-order stylelint-config-pk-standa
 ```javascript
 // .stylelintrc
 {
-  "extends": ["stylelint-config-pk-standard"]
+  "plugins": ["stylelint-order"],
+  "extends": [
+    "stylelint-config-recommended",
+    "stylelint-config-pk-standard"
+  ]
 }
 ```
 
